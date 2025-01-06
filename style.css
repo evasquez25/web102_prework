@@ -14,9 +14,35 @@ body {
     background-color: lightblue;
     padding: 1%;
     align-items: center;
+    justify-content: space-between;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+/* Header text styles */
+.header-text {
+    margin: 0; /* Removes extra space around the h1 */
+    font-size: 24px;
+}
+
+/* Link styles */
+.header-link {
+    margin-left: auto; /* Pushes the link to the far right */
+    text-decoration: none; /* Removes underline */
+    color: #0077cc; /* Example link color */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Hover effect for link */
+.header-link:hover {
+    color: #0056a3; /* Changes color on hover */
 }
 
 .stats-container {
